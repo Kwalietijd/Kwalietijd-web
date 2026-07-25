@@ -1,0 +1,78 @@
+---
+const links = [
+  { href: "#werkwijze", label: "Werkwijze" },
+  { href: "#over-mij", label: "Over mij" },
+  { href: "#ervaring", label: "Ervaring" },
+  { href: "#contact", label: "Contact" },
+];
+---
+
+<header class="fixed top-0 left-0 right-0 z-50 bg-cream/95 backdrop-blur-sm border-b border-warm-sand/30">
+  <nav class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+    <a href="#hero" class="flex-shrink-0">
+      <img src="/logo/kwalietijd_small.svg" alt="Kwalietijd" class="h-10 w-auto" />
+    </a>
+
+    <ul class="hidden md:flex items-center gap-8">
+      {links.map((link) => (
+        <li>
+          <a
+            href={link.href}
+            class="text-sm font-medium text-deep-slate hover:text-terracotta transition-colors duration-200"
+          >
+            {link.label}
+          </a>
+        </li>
+      ))}
+    </ul>
+
+    <button
+      class="md:hidden flex flex-col justify-center items-center w-8 h-8 gap-1.5 hamburger"
+      aria-label="Menu"
+      type="button"
+    >
+      <span class="block w-6 h-0.5 bg-deep-slate transition-all duration-200 bar1"></span>
+      <span class="block w-6 h-0.5 bg-deep-slate transition-all duration-200 bar2"></span>
+      <span class="block w-6 h-0.5 bg-deep-slate transition-all duration-200 bar3"></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu hidden md:hidden border-t border-warm-sand/30 bg-cream">
+    <ul class="flex flex-col items-center py-4 gap-4">
+      {links.map((link) => (
+        <li>
+          <a
+            href={link.href}
+            class="text-sm font-medium text-deep-slate hover:text-terracotta transition-colors duration-200"
+          >
+            {link.label}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</header>
+
+<script>
+  const hamburger = document.querySelector('.hamburger');
+  const mobileMenu = document.querySelector('.mobile-menu');
+  const bars = document.querySelectorAll('.hamburger span');
+
+  hamburger?.addEventListener('click', () => {
+    const isOpen = mobileMenu?.classList.toggle('hidden') === false;
+    bars[0]?.classList.toggle('rotate-45');
+    bars[0]?.classList.toggle('translate-y-2');
+    bars[1]?.classList.toggle('opacity-0');
+    bars[2]?.classList.toggle('-rotate-45');
+    bars[2]?.classList.toggle('-translate-y-2');
+  });
+
+  document.querySelectorAll('.mobile-menu a').forEach((link) => {
+    link.addEventListener('click', () => {
+      mobileMenu?.classList.add('hidden');
+      bars[0]?.classList.remove('rotate-45', 'translate-y-2');
+      bars[1]?.classList.remove('opacity-0');
+      bars[2]?.classList.remove('-rotate-45', '-translate-y-2');
+    });
+  });
+</script>

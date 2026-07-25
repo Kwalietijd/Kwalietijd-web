@@ -1,0 +1,31 @@
+---
+const areas = [
+  "Bedrijfsmaatschappelijk werk",
+  "Verzuimbegeleiding",
+  "Coaching van medewerkers",
+  "Leidinggeven en teamontwikkeling",
+  "Zorg- en welzijnsorganisaties",
+];
+---
+
+<section id="ervaring" class="bg-white py-20 md:py-28">
+  <div class="max-w-3xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-deep-slate mb-8 text-center">
+      Ervaring
+    </h2>
+    <p class="text-lg text-charcoal/80 leading-relaxed mb-6">
+      Mijn ervaring ligt onder andere binnen:
+    </p>
+    <ul class="space-y-3 mb-6">
+      {areas.map((area) => (
+        <li class="flex items-start gap-3 text-lg text-charcoal/80">
+          <span class="mt-2 w-2 h-2 flex-shrink-0 rounded-full bg-terracotta"></span>
+          <span>{area}</span>
+        </li>
+      ))}
+    </ul>
+    <p class="text-lg text-charcoal/80 leading-relaxed">
+      Hoewel mijn netwerk voornamelijk binnen de zorg ligt, werk ik ook graag samen met organisaties uit andere sectoren.
+    </p>
+  </div>
+</section>

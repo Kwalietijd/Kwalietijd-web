@@ -1,0 +1,30 @@
+---
+const items = [
+  "Werkdruk en stress",
+  "Dreigend of langdurig verzuim",
+  "Balans tussen werk en privé",
+  "Persoonlijke omstandigheden die invloed hebben op het werk",
+  "Samenwerking en communicatie",
+  "Veranderingen op het werk",
+  "Preventieve begeleiding",
+];
+---
+
+<section id="diensten" class="bg-cream py-20 md:py-28">
+  <div class="max-w-3xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-deep-slate mb-8 text-center">
+      Waarmee kan ik helpen?
+    </h2>
+    <p class="text-lg text-charcoal/80 leading-relaxed mb-6">
+      Onder andere bij:
+    </p>
+    <ul class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+      {items.map((item) => (
+        <li class="flex items-start gap-3 text-charcoal/80">
+          <span class="mt-2 w-2 h-2 flex-shrink-0 rounded-full bg-terracotta"></span>
+          <span>{item}</span>
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>
