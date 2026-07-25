@@ -1,20 +1,33 @@
 # Kwalietijd Website
 
-Before making changes, read:
+## Context
+
+This is a website for Balans in kwalietijd, the practice of Alie Visser, a bedrijfsmaatschappelijk werker.
+
+The purpose of the website is to build trust with potential clients.
+
+## Before making changes, read:
 
 1. docs/vision.md
 2. docs/brand.md
 3. docs/content.md
 4. docs/design.md (when available)
 
-Project goals:
+## Design principles
 
-- Build trust.
-- Be calm and approachable.
-- Mobile-first.
-- Accessible.
-- Minimal JavaScript.
-- Static website.
+- Calm
+- Professional
+- Personal
+- Trustworthy
+- Minimal
+
+## Technical principles
+
+- Astro
+- Tailwind CSS
+- TypeScript
+- Prefer simple components
+- Avoid unnecessary dependencies
 
 ## Development
 
