@@ -25,7 +25,7 @@
 
 - [x] Create `src/components/Navigation.astro`
 - [x] Small logo linked to #hero
-- [x] Anchor links: Werkwijze, Over mij, Ervaring, Contact
+- [x] Anchor links: Werkwijze, Over mij, Contact
 - [x] Mobile hamburger toggle (minimal JS)
 - [x] Style: cream bg, deep slate text, terracotta hover
 - [x] Verify: links scroll, hamburger works on mobile
@@ -50,8 +50,6 @@
 - [x] Create `src/components/Services.astro` — id="diensten", cream bg
 - [x] Create `src/components/Approach.astro` — id="werkwijze", white bg
 - [x] Create `src/components/About.astro` — id="over-mij", cream bg
-- [x] Create `src/components/Experience.astro` — id="ervaring", white bg
-- [x] Create `src/components/Education.astro` — id="opleiding", cream bg
 - [x] Verify: all text matches content.md, IDs work with anchors
 
 ## Phase 5: Contact & Footer
@@ -111,3 +109,8 @@
 - Hero headshot changed to portrait aspect ratio (3/4) to avoid cropping the top of the head
 - Footer background changed to cream so the logo displays correctly (logo only works on light backgrounds)
 - SVG logos: tightened viewBox to fit actual content (was 600x450 with ~50% empty space), stripped Inkscape metadata
+- Removed Experience and Education sections (too resume-like)
+- All copy rewritten in first person from Alie's perspective
+- Company name "Balans in kwalietijd" and owner name "Alie" made clear throughout
+- Added typical waiting time (3 weeks) in contact section
+- Fixed "Wereldruk" typo in content.md
