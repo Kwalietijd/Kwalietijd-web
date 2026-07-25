@@ -107,3 +107,7 @@
 - Terracotta color adjusted from `#C36A4B` to `#A85035` for WCAG AA contrast compliance
 - Contact section placeholder links need real phone, email, and LinkedIn URLs
 - Favicon is a simplified version of the scale icon
+- Nav logo increased to h-14 for legibility
+- Hero headshot changed to portrait aspect ratio (3/4) to avoid cropping the top of the head
+- Footer background changed to cream so the logo displays correctly (logo only works on light backgrounds)
+- SVG logos: tightened viewBox to fit actual content (was 600x450 with ~50% empty space), stripped Inkscape metadata
