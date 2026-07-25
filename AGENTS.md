@@ -1,3 +1,21 @@
+# Kwalietijd Website
+
+Before making changes, read:
+
+1. docs/vision.md
+2. docs/brand.md
+3. docs/content.md
+4. docs/design.md (when available)
+
+Project goals:
+
+- Build trust.
+- Be calm and approachable.
+- Mobile-first.
+- Accessible.
+- Minimal JavaScript.
+- Static website.
+
 ## Development
 
 When starting the dev server, use background mode:

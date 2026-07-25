@@ -2,6 +2,31 @@
 
 Professional one-page website for **Kwalietijd**, the independent practice of a bedrijfsmaatschappelijk werker.
 
+## Quick Start
+
+### Prerequisites
+
+- Git
+- mise
+
+### Installation
+
+```bash
+git clone <repository>
+
+cd Kwalietijd-web
+
+mise install
+
+npm install
+
+npm run dev
+```
+
+The development server will be available at:
+
+http://localhost:4321
+
 ## Purpose
 
 This website is intended to establish trust and professionalism for potential clients. It should communicate experience, reliability, and approachability without feeling overly commercial.
