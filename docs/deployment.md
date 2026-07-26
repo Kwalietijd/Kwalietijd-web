@@ -11,20 +11,34 @@ Cloudflare Tunnel provides secure public access.
 ## Deployment flow
 
 ```
-Git push
+Git push to main
     ↓
-GitHub
+GitHub Actions
     ↓
-Webhook
+Build Astro site (Node 22)
     ↓
-Raspberry Pi
-    ↓
-Build project
-    ↓
-Copy generated files
+rsync dist/ to Pi via Cloudflare Tunnel
     ↓
 Nginx serves updated site
 ```
+
+The deployment is automated via `.github/workflows/deploy.yml`.
+
+On every push to `main`, GitHub Actions:
+1. Checks out the code
+2. Installs `cloudflared` for secure SSH access
+3. Builds the Astro site
+4. Deploys the `dist/` folder to the Pi via SSH through the Cloudflare Tunnel
+
+## Required GitHub secrets
+
+The following secrets must be configured in the repository settings:
+
+| Secret | Description |
+|--------|-------------|
+| `SSH_PRIVATE_KEY` | Private key for SSH access to the Pi |
+| `SSH_HOST` | hostname for Cloudflare Tunnel SSH access |
+| `SSH_USER` | SSH username on the Pi |
 
 ## Deployment philosophy
 
@@ -42,7 +56,6 @@ Avoid manual changes on the production server whenever possible.
 
 Potential future additions:
 
-* Automated deployments
 * Preview deployments
 * Analytics
 * Contact form
