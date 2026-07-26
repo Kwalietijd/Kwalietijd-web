@@ -36,4 +36,6 @@ jobs:
           REMOTE_HOST: ${{ secrets.SSH_HOST }}
           REMOTE_USER: ${{ secrets.SSH_USER }}
           TARGET: "/var/www/beta-balans"
-          SSH_CMD_ARGS: "-o StrictHostKeyChecking=no, -o ProxyCommand='cloudflared access ssh --hostname %h'"
+          SSH_CMD_ARGS: >-
+            -o StrictHostKeyChecking=no 
+            -o ProxyCommand='cloudflared access ssh --hostname %h --service-token-id ${{ secrets.CF_CLIENT_ID }} --service-token-secret ${{ secrets.CF_CLIENT_SECRET }}'
