@@ -4,9 +4,9 @@
 
 The website is hosted as a static site on GitHub Pages at:
 
-`https://kwalietijd.github.io/Kwalietijd-web/`
+`https://balansinkwalietijd.nl/`
 
-Astro's `base` setting includes the repository path so page assets load correctly on GitHub Pages.
+Astro's `site` and `base` settings are configured for the custom apex domain. A `public/CNAME` file keeps the custom domain attached to each Pages deployment.
 
 ## Deployment flow
 
@@ -14,7 +14,7 @@ The workflow in `.github/workflows/deploy.yml` runs on every push to `main` and 
 
 ## One-time GitHub setup
 
-In the repository settings, open **Pages** and select **GitHub Actions** as the build and deployment source. No SSH keys or Cloudflare Tunnel secrets are needed.
+In the repository settings, open **Pages** and select **GitHub Actions** as the build and deployment source. Set `balansinkwalietijd.nl` as the custom domain. Configure the domain's DNS records with its DNS provider; no SSH keys or Cloudflare Tunnel secrets are needed.
 
 ## Deployment philosophy
 
