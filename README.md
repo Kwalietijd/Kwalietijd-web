@@ -68,9 +68,7 @@ Current planned stack:
 * TypeScript
 * Tailwind CSS
 * Static site generation
-* Nginx
-* Cloudflare Tunnel
-* GitHub
+* GitHub Pages
 
 ## Repository structure
 
@@ -94,9 +92,9 @@ src/           Astro source code
 
 Development happens locally.
 
-Production is hosted on a Raspberry Pi behind Nginx and a Cloudflare Tunnel.
+Production is hosted on GitHub Pages.
 
-The deployment process is documented in `docs/deployment.md`.
+Every push to `main` builds and deploys the site through GitHub Actions. The deployment process is documented in `docs/deployment.md`.
 
 ## Future ideas
 

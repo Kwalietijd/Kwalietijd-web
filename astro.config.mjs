@@ -5,6 +5,8 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://kwalietijd.github.io',
+  base: '/Kwalietijd-web/',
   vite: {
     plugins: [tailwindcss()]
   }

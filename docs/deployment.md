@@ -2,61 +2,29 @@
 
 ## Hosting
 
-The website is hosted on a Raspberry Pi.
+The website is hosted as a static site on GitHub Pages at:
 
-Nginx serves the generated static files.
+`https://kwalietijd.github.io/Kwalietijd-web/`
 
-Cloudflare Tunnel provides secure public access.
+Astro's `base` setting includes the repository path so page assets load correctly on GitHub Pages.
 
 ## Deployment flow
 
-```
-Git push to main
-    ↓
-GitHub Actions
-    ↓
-Build Astro site (Node 22)
-    ↓
-rsync dist/ to Pi via Cloudflare Tunnel
-    ↓
-Nginx serves updated site
-```
+The workflow in `.github/workflows/deploy.yml` runs on every push to `main` and can also be started manually from the Actions tab. It checks out the repository, installs dependencies with `npm ci`, builds the Astro site, uploads `dist/` as a Pages artifact, and deploys that artifact to GitHub Pages.
 
-The deployment is automated via `.github/workflows/deploy.yml`.
+## One-time GitHub setup
 
-On every push to `main`, GitHub Actions:
-1. Checks out the code
-2. Installs `cloudflared` for secure SSH access
-3. Builds the Astro site
-4. Deploys the `dist/` folder to the Pi via SSH through the Cloudflare Tunnel
-
-## Required GitHub secrets
-
-The following secrets must be configured in the repository settings:
-
-| Secret | Description |
-|--------|-------------|
-| `SSH_PRIVATE_KEY` | Private key for SSH access to the Pi |
-| `SSH_HOST` | hostname for Cloudflare Tunnel SSH access |
-| `SSH_USER` | SSH username on the Pi |
+In the repository settings, open **Pages** and select **GitHub Actions** as the build and deployment source. No SSH keys or Cloudflare Tunnel secrets are needed.
 
 ## Deployment philosophy
 
-Production should be:
-
-* Static
-* Reliable
-* Fast
-* Easy to recover
-* Easy to rebuild from source
-
-Avoid manual changes on the production server whenever possible.
+Production is static, fast, and rebuilt from source on each deployment. Avoid manual changes to generated production files.
 
 ## Future improvements
 
 Potential future additions:
 
-* Preview deployments
+* Custom domain
 * Analytics
 * Contact form
 * Performance monitoring
