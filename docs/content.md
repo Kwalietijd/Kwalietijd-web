@@ -28,14 +28,11 @@ Persoonlijke begeleiding, met oog voor zowel de mens als de organisatie.
 # Introductie
 
 Wanneer persoonlijke omstandigheden en werk verweven raken, kan ik ondersteunen,verhelderen en adviseren om weer grip te krijgen op de situatie. 
-De persoon in kwestie is in the lead; ik probeer te verhelderen wat er aan vooraf gegaan is en waar betrokkene het stuur weer in eigen hand neemt.
 
 Ik begeleid medewerkers bij werkgerelateerde psychosociale vraagstukken. 
 Persoonlijk, betrokken en praktisch.
 
-## Quote
 
-Het grootste probleem in communicatie is dat we niet luisteren om te begrijpen, maar dat we luisteren om te antwoorden. - Stephen Covey
 
 ---
 
@@ -60,6 +57,10 @@ Ik ben Alie Visser-Ziel, bedrijfsmaatschappelijk werker en sinds 2021 actief ond
 Dankzij mijn achtergrond als verpleegkundige, docent, leidinggevende, teamcoach en verzuimcoach in de zorg heb ik een goed inzicht in het perspectief van zowel de medewerker als de organisatie.
 
 Ieder traject begint met luisteren. We nemen de **tijd** om te onderzoeken wat er speelt en welke begeleiding helpend kan zijn. Wat mij hierin kenmerkt is mijn mensgerichte aanpak. Dit geeft mij de ruimte om individuen en organisaties te ondersteunen bij psychosociale vraagstukken. Door mijn profesionele blik, in combinatie met empathie en daadkracht, ondersteun ik clienten om in **balans** te komen en te blijven.  
+
+## Quote
+
+Het grootste probleem in communicatie is dat we niet luisteren om te begrijpen, maar dat we luisteren om te antwoorden. - Stephen Covey
 
 ---
 
