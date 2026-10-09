@@ -14,7 +14,9 @@
 
 ## Intro
 
-Bedrijfsmaatschappelijk werk voor organisaties die aandacht hebben voor het welzijn van hun medewerkers. Persoonlijke begeleiding, met oog voor zowel de mens als de organisatie.
+Met een verpleegkunde diploma in de basis wil ik nog steeds van betekenis voor mensen zijn. 
+Dit doe ik door als bedrijfsmaatschappelijk werker voor organisaties die aandacht hebben voor het welzijn van hun medewerkers.
+Persoonlijke begeleiding, met oog voor zowel de mens als de organisatie.
 
 ## Call to action
 
@@ -25,9 +27,15 @@ Bedrijfsmaatschappelijk werk voor organisaties die aandacht hebben voor het welz
 
 # Introductie
 
-Wanneer persoonlijke omstandigheden en werk verweven raken, helpt Balans in kwalietijd om weer grip te krijgen op de situatie.
+Wanneer persoonlijke omstandigheden en werk verweven raken, kan ik ondersteunen,verhelderen en adviseren om weer grip te krijgen op de situatie. 
+De persoon in kwestie is in the lead; ik probeer te verhelderen wat er aan vooraf gegaan is en waar betrokkene het stuur weer in eigen hand neemt.
 
-Ik begeleid medewerkers bij werkgerelateerde psychosociale vraagstukken. Persoonlijk, betrokken en praktisch.
+Ik begeleid medewerkers bij werkgerelateerde psychosociale vraagstukken. 
+Persoonlijk, betrokken en praktisch.
+
+## Quote
+
+Het grootste probleem in communicatie is dat we niet luisteren om te begrijpen, maar dat we luisteren om te antwoorden. - Stephen Covey
 
 ---
 
@@ -45,21 +53,13 @@ Onder andere bij:
 
 ---
 
-# Mijn werkwijze
-
-Ieder traject begint met luisteren. Samen onderzoeken we wat er speelt en welke begeleiding helpend kan zijn.
-
-Ik werk vanuit vertrouwen, aandacht en betrokkenheid — met oog voor zowel de medewerker als de organisatie.
-
----
-
 # Over mij
 
 Ik ben Alie Visser-Ziel, bedrijfsmaatschappelijk werker en sinds 2021 actief onder de naam **Balans in kwalietijd**.
 
-Ik heb jarenlange ervaring in de zorg en het sociaal domein, met expertise in verzuimbegeleiding, coaching en teamontwikkeling.
+Dankzij mijn achtergrond als verpleegkundige, docent, leidinggevende, teamcoach en verzuimcoach in de zorg heb ik een goed inzicht in het perspectief van zowel de medewerker als de organisatie.
 
-Naast mijn werk als zelfstandig bedrijfsmaatschappelijk werker ben ik verzuimcoach binnen de ouderenzorg. Deze combinatie helpt me om vraagstukken vanuit meerdere perspectieven te bekijken.
+Ieder traject begint met luisteren. We nemen de **tijd** om te onderzoeken wat er speelt en welke begeleiding helpend kan zijn. Wat mij hierin kenmerkt is mijn mensgerichte aanpak. Dit geeft mij de ruimte om individuen en organisaties te ondersteunen bij psychosociale vraagstukken. Door mijn profesionele blik, in combinatie met empathie en daadkracht, ondersteun ik clienten om in **balans** te komen en te blijven.  
 
 ---
 
